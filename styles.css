@@ -1,0 +1,152 @@
+ body {
+            font-family: 'Sawarabi Mincho', serif;
+            background-color: #f1e6db; /* Light Gray */
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 36px;
+            font-weight: 700;
+            margin-bottom: 30px;
+            color: #333333;
+        }
+
+        p {
+            font-size: 16px;
+            color: #777777; /* Gray */
+            line-height: 1.6;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 30px;
+        }
+
+        li {
+            margin: 0 15px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #333333;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: #D81B60; /* Pink */
+        }
+
+        img {
+            width: 50px;
+            height: 50px;
+        }
+
+        .section {
+            margin-bottom: 50px;
+        }
+
+        .section-heading {
+            font-size: 24px;
+            font-weight: 700;
+            margin-bottom: 20px;
+            color: #333333;
+        }
+
+        .project {
+            margin-bottom: 30px;
+        }
+
+        .project-title {
+            font-size: 40px;
+            font-weight: 700;
+            margin-bottom: 10px;
+            color: #333333;
+        }
+
+        .project-description {
+            font-size: 30px;
+            color: #fff200; /* Gray */
+            line-height: 1.6;
+            margin-bottom: 10px;
+            font-weight: 300;
+            
+    
+    text-shadow: 1.5px 1.5px 3px #000000;
+            
+        }
+
+        .project-link {
+            font-size: 16px;
+            color: #000000; /* Pink */
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .project-link:hover {
+            color: #4f68ce; /* Dark Pink */
+        }
+
+        .skill-list {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .skill {
+            font-size: 14px;
+            color: #000000; /* Dark Gray */
+            background-color: #ffffff;
+            padding: 5px 10px;
+            margin: 5px;
+            border-radius: 15px;
+        }
+
+        .contact {
+            margin-top: 50px;
+            text-align: center;
+        }
+
+        .contact-heading {
+            font-size: 24px;
+            font-weight: 700;
+            margin-bottom: 20px;
+            color: #333333;
+        }
+
+        .contact-info {
+            font-size: 16px;
+            color: #777777;
+            line-height: 1.6;
+            margin-bottom: 10px;
+        }
+
+        .contact-link {
+            font-size: 16px;
+            color: #000000; /* Pink */
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .contact-link:hover {
+            color: #23b4ed; /* Dark Pink */
+        }
+        .name{
+            text-shadow: #000000;
+            text-rendering: geometricPrecision;
+            font-weight: 300;
+            font-size: 60;
+        }
